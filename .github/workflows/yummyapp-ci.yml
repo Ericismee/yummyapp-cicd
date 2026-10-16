@@ -34,3 +34,10 @@ jobs:
           coverage html -d coverage_html
           coverage report --fail-under=80
 
+      - name: 6. Upload HTML Coverage Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: YummyApp-Coverage-Report
+          path: coverage_html/
+          retention-days: 7
