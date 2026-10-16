@@ -1,0 +1,10 @@
+* 06f79ff - 2312607 - Nguyễn Ngọc Hân (Fri Oct 16 16:04:33 2026 +0700): 2312607 - Nguyen Ngoc Han: Tiet 4 sua loi va upload HTML coverage artifact
+* 9b46f34 - Eric (Fri Oct 16 16:03:06 2026 +0700): 2312607 - Nguyen Ngoc Han: Tiet 4 Break the Build
+* 3fc92bb - 2312607 - Nguyễn Ngọc Hân (Fri Oct 16 16:02:29 2026 +0700): 2312607 - Nguyen Ngoc Han: Tiet 4 Break the Build bang loi cu phap
+* a6d235f - Eric (Fri Oct 16 16:01:26 2026 +0700): 2312607 - Nguyen Ngoc Han: Tiet 3 them mocking vuot gate
+* 5b911c7 - Eric (Fri Oct 16 15:59:30 2026 +0700): 2312607 - Nguyen Ngoc Han: Tiet 3 bat quality gate 80%
+* 6948bfd - Eric (Fri Oct 16 15:56:45 2026 +0700): 2312607 - Nguyen Ngoc Han: Tiet 2 CI co ban
+* 832d54b - Eric (Fri Oct 16 15:55:48 2026 +0700): 2312607 - Nguyen Ngoc Han: Tiet 1 bo 4 test co ban
+* 0863dc3 - Eric (Fri Oct 16 15:55:10 2026 +0700): 2312607 - Nguyen Ngoc Han: ghim dependencies theo de
+* bf0cb18 - Eric (Fri Oct 16 15:54:24 2026 +0700): 2312607 - Nguyen Ngoc Han: them nghiep vu YummyApp
+* 9ccdc07 - Eric (Fri Oct 16 15:53:11 2026 +0700): 2312607 - Nguyen Ngoc Han: khoi tao GPS theo mau
