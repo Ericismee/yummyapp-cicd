@@ -23,6 +23,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 4. Execute Test Suite
+      - name: 4. Static Code Analysis (Linter)
         run: |
-          python -m unittest discover -s . -p "test_*.py"
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+      - name: 5. Execute Tests & Quality Gate
+        run: |
+          coverage run -m unittest discover -s . -p "test_*.py"
+          coverage report -m
+          coverage html -d coverage_html
+          coverage report --fail-under=80
+
